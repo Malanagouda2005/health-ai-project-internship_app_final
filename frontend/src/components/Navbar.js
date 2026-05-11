@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FaMoon, FaSun, FaHeartbeat, FaSignOutAlt } from 'react-icons/fa';
+import { FaHeartbeat, FaSignOutAlt } from 'react-icons/fa';
 import './Navbar.css';
 
 const Navbar = ({ darkMode, onToggleDarkMode, user, onLogout }) => {
