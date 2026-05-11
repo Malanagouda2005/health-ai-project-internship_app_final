@@ -1,0 +1,73 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Frontend build (will be rebuilt on deploy)
+frontend/build/
+frontend/.next/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android/iOS build artifacts
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/.idea/
+frontend/ios/build/
+frontend/ios/Pods/
+*.gradle
+local.properties
+*.iml
+
+# Temporary files
+*.tmp
+*.bak
+
+# Instance folder (SQLite DB)
+instance/
+
+# Data folders
+/data/
+/dataset/
+/datasets/
+
+# Logs
+*.log
+
+# NOTE: ML model files (.h5, .pkl) are NOT ignored
+# They must be committed for Render deployment
+backend/.env
+backend/.env
