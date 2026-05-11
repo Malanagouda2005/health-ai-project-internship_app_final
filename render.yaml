@@ -3,6 +3,8 @@ services:
     name: health-ai-prediction-app
     runtime: python
 
+    pythonVersion: 3.9.18
+
     buildCommand: chmod +x build.sh && ./build.sh
 
     startCommand: cd backend && gunicorn app:app --bind 0.0.0.0:$PORT --timeout 120 --workers 1 --threads 2
