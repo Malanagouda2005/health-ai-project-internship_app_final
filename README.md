@@ -12,6 +12,7 @@ A comprehensive machine learning-based health diagnostic system that provides pr
 - **Modern React Frontend**: User-friendly interface with tabbed navigation
 - **REST API Backend**: Flask-based API with ML model integration
 - **Responsive Design**: Works on desktop and mobile devices
+  
 
 ## Project Structure
 
