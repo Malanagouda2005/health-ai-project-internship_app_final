@@ -9,6 +9,7 @@ dist/
 .venv/
 venv/
 ENV/
+//
 env/
 .pytest_cache/
 .coverage
