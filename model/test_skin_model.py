@@ -25,7 +25,7 @@ else:
     class_names = sorted([d for d in os.listdir(TEST_DIR) if os.path.isdir(os.path.join(TEST_DIR, d))])
     if not class_names:
         raise FileNotFoundError(f"No classes found in {TEST_DIR}")
-
+\
 # ✅ Data generator (same as training)
 test_datagen = ImageDataGenerator(
     preprocessing_function=tf.keras.applications.efficientnet.preprocess_input
