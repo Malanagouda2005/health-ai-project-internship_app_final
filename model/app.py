@@ -1,13 +1,10 @@
 import json
 import os
-
 import numpy as np
 import tensorflow as tf
 from flask import Flask, request, jsonify
 from tensorflow.keras.preprocessing import image
-
 print("🚀 Flask app starting...")
-
 app = Flask(__name__)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
